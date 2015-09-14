@@ -1,0 +1,234 @@
+/* Estilo por defecto */
+ 
+
+/* General
+*/
+/* Fixing Firefox bug with border-collapse: collapse */
+td {
+	background-clip: padding-box;
+}
+body {
+	padding-top: 70px;
+    font-family: 'Myriad Pro';
+	background-color: #fff;
+	font-family: Tahoma;
+   
+}
+#demoTable thead th {
+	
+                        white-space: nowrap;
+                        overflow-x:hidden;
+                        padding: 3px;
+}
+#demoTable tbody td {
+                        padding: 3px;
+}
+.container-fluid {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.navbar-text {
+	font-size: 16px;
+}
+.page-header {
+	margin-top: 0;
+}
+
+/* data-title
+*/
+[data-title]:hover:after {
+	display: block;
+	position: absolute;
+	z-index: 1000;
+	
+	content: attr(data-title);
+	
+	margin-top: 15px;
+	padding: 2px 4px;
+	border: 1px solid #767676;
+	box-shadow: 2px 2px 2px #999;
+	border-radius: 2px;
+	background: linear-gradient(#fff, #e4e5f0);
+	
+	font: normal 12px Arial;
+	color: #555;
+}
+
+/* Placeholder
+*/
+select.placeholder {
+	color: #999;
+}
+select.placeholder option {
+	color: #555;
+}
+select.placeholder option:first-child {
+	color: #999;
+}
+
+/* Navigation
+*/
+.navbar-fixed-top {
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+
+/* - Header
+*/
+.nav-header {
+	min-height: 70px;
+	padding-top: 10px;
+	border-bottom: 1px solid #e7e7e7;
+}
+.navbar-header {
+	width: 250px;
+	margin-right: 20px;
+}
+.navbar-brand {
+	margin-top: -5px;
+	padding: 0;
+}
+.navbar-brand .logo {
+	height: 60px;
+}
+.header-title {
+	position: absolute;
+	float: none;
+	text-align: center;
+	margin: 0;
+	width: 100%;
+}
+.welcome-title {
+	position: absolute;
+	float: none;
+	text-align: center;
+	margin: 25px 0 0;
+	width: 100%;
+	color: #000 !important;
+}
+
+.brand-saes {
+	margin-right: -15px;
+}
+.navbar-top-links {
+	margin-right: -30px;
+}
+
+.nav-navbar-toggle {
+	display: none;
+	position: relative;
+	float: right;
+	margin-right: 15px;
+	padding: 9px 10px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.nav-navbar-toggle {
+	border-color: #ddd;
+}
+.nav-navbar-toggle .icon-bar {
+	background-color: #888;
+}
+.nav-navbar-toggle .icon-bar {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+}
+.nav-navbar-toggle .icon-bar+.icon-bar {
+	margin-top: 4px;
+}
+
+/* - Navbar
+*/
+.nav-navbar {
+	display: none;
+	min-height: 130px;
+	border-bottom: 1px solid #e7e7e7;
+	background-color: #fff;
+}
+.row-criterion {
+	padding-top: 5px;
+}
+
+/* Page wrapper
+*/
+#page-wrapper {
+	margin-left: 0;
+	margin-top: 0;
+}
+
+/* Calculator
+*/
+
+.calculator {
+	padding-top: 20px;
+}
+.table-standard th {
+	text-align: center;
+}
+.table-standard thead tr:first-child th:first-child {
+	width: 65%;
+}
+.table-standard thead tr:first-child th:last-child {
+	width: 35%;
+}
+.table-standard tbody td {
+	position: relative;
+	overflow: hidden;
+}
+.con-req-1 {
+	font-weight: bold;
+	background-color: #ddd;
+}
+.con-req-0:hover:after {
+	display: none;
+}
+
+.btn-standard-save[disabled] {
+	padding-right: 37px;
+}
+.btn-standard-save[disabled]:after {
+	content: url(/media/saes/img/gif-load.gif);
+	margin-left: 5px;
+	position: absolute;
+}
+span[data-title]:hover:after {
+	margin-top: 40px;
+}
+.input-group-addon + span > input[type=text] {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+/* Institute
+*/
+.table-standard-institute thead tr:first-child th:first-child {
+	width: 50%;
+}
+.table-standard-institute thead tr:first-child th:last-child {
+	width: 50%;
+}
+
+/* Footer
+*/
+.nav-footer {
+	/*background-color: #004e94;*/
+}
+
+/* Responsive
+*/
+@media (min-width: 768px) {
+	body.navbar {
+		padding-top: 200px;
+	}
+}
+
+.label-order {
+  width: 10%;
+  float: left;
+}

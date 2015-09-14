@@ -1,0 +1,81 @@
+/* Estilo por defecto */
+
+ 
+input:required:invalid {
+ 
+border: 1px solid red;
+ 
+}
+ 
+input:required:valid {
+ 
+border: 1px solid green;
+ 
+}/* General */
+
+body {
+    font-family: 'Myriad Pro';
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-image: url(http://procalidad.gob.pe/templates/rt_voxel/images/overlays/patterns/crackle.png);
+}
+
+/* Placeholder */
+
+select.placeholder {
+	color: #999;
+}
+select.placeholder option {
+	color: #555;
+}
+select.placeholder option:first-child {
+	color: #999;
+}
+
+/* Sign */
+
+.form-sign {
+	padding: 10px 30px;
+	margin: 0 auto;
+	background-color:#fff;
+	box-shadow: 5px 5px 5px #ccc;
+	font-size: 16px;
+}
+.form-sign .logo {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+.signin {
+	max-width: 400px;
+}
+.signup {
+	max-width: 960px;
+}
+.heading {
+	text-align: center;
+}
+.footer-sign {
+	font-size: 12px;
+	margin: 0 auto;
+	max-width: 360px;
+	padding: 15px;
+	position: relative;
+	text-align: center;
+	top: 100px;
+}
+.control-sign {
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+}
+.signup fieldset {
+	margin-bottom: 20px;
+}
+.signup .committee {
+	margin-bottom: 0;
+}
+.signup .committee input[type=radio] {
+	margin: 0 0 0 -20px;
+	float: none;
+}

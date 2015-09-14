@@ -1,0 +1,131 @@
+/* Estilo por defecto */
+ 
+/* Bootstrap Overrides */
+
+/* primary */
+
+a {
+  color: #004e94;
+}
+.text-primary {
+  color: #004e94;
+}
+.bg-primary {
+  background-color: #004e94;
+}
+.btn-primary {
+  background-color: #004e94;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #004e94;
+}
+.btn-primary .badge {
+  color: #004e94;
+}
+.btn-link {
+  color: #004e94;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-color: #004e94;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: #004e94;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background-color: #004e94;
+}
+.pagination > li > span {
+  color: #004e94;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #004e94;
+  border-color: #004e94;
+}
+.label-primary {
+  background-color: #004e94;
+}
+a.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
+  color: #004e94;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #004e94;
+}
+.progress-bar {
+  background-color: #004e94;
+}
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+  background-color: #004e94;
+  border-color: #004e94;
+}
+.panel-primary {
+  border-color: #004e94;
+}
+.panel-primary > .panel-heading {
+  background-color: #004e94;
+  border-color: #004e94;
+}
+.panel-primary > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #004e94;
+}
+.panel-primary > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #004e94;
+}
+
+a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+
+/* primary - focus */
+
+a:hover,
+a:focus {
+  color: #033c6f;
+}
+.btn-link:hover,
+.btn-link:focus {
+  color: #033c6f;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #033c6f;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+	background-color: #033c6f;
+}
